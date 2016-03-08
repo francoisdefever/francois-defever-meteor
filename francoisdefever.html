@@ -24,12 +24,19 @@
           </nav><!-- /navbar -->
         </div>
       </div> <!-- /row -->
-  <h1>Welcome to Meteor!</h1>
 
-  {{> hello}}
+      <div>
+      	<h2>François DEFEVER</h2>
+      	{{ > header}}
+      </div>
+
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="header">
+{{ > videobackground vbgOptions }}
+  <div class="videobackground">
+    <div class="videobackground__resizer">
+      <div class="videobackground__poster"></div>
+    </div>
+  </div>
 </template>
