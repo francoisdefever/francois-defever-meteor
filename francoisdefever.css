@@ -6,8 +6,14 @@ body {
 h1 {
 	color: #ecf0f1;
 	text-align: center;
-	padding-top: 2em;
+	margin-top: 0px;
+	padding-top: 20%;
 	font-size: 4em;
+}
+
+footer {
+	background-color: #34495e;
+	display: block;
 }
 
 /*----------------------Video-Header-----------------------*/
